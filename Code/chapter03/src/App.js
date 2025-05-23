@@ -41,11 +41,11 @@ class App extends Component {
           <ProgressBar animated now={progress} label={`${progress}%`} />
         </div>
 
-        <Rating rating="1" />
-        <Rating rating="2" />
-        <Rating rating="3" />
-        <Rating rating="4" />
-        <Rating rating="5" />
+        <Rating />
+        <Rating />
+        <Rating />
+        <Rating />
+        <Rating />
       </div>
     );
   }
