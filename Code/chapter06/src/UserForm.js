@@ -42,10 +42,12 @@ class UserForm extends Component {
                 >
                     {({ isSubmitting }) => (
                         <Form>
+                            <h2>Email</h2>
                             <Field type="email" name="email" />
                             <span style={{ color:"red", fontWeight: "bold" }}>
                                 <ErrorMessage name="email" component="div" />
                             </span>
+                            <h2>Password</h2>
                             <Field type="password" name="password" />
                             <span style={{ color:"red", fontWeight: "bold" }}>
                                 <ErrorMessage name="password" component="div" />
