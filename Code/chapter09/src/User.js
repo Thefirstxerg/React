@@ -4,6 +4,8 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { Table, Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+// import ref and related realtime database
+
 
 class User extends Component {
     constructor(props) {
@@ -19,7 +21,7 @@ class User extends Component {
     }
 
     componentDidMount() {
-        firebase.database().ref('/')
+        firebase.database().ref('/users')
             .on('value', snapshot => {
                 let returnArr = [];
                 //loops through database
@@ -56,7 +58,7 @@ class User extends Component {
 
     delete(e) {
         //removing user by unique identifier (key)
-        firebase.database().ref('/' + this.state.selectedUser.key).remove()
+        firebase.database().ref('/users/' + this.state.selectedUser.key).remove()
             .then(x => {
                 console.log("SUCCESS");
                 this.closeDeleteDialog();
