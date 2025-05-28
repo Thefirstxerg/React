@@ -8,9 +8,6 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 class Dessert extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         const rows = [
