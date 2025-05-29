@@ -5,7 +5,7 @@ function GreetingCard({ name }) {
 
   return (
     <div>
-      <h2>Hello, {name}!</h2>
+      <h4>Hello, {name}!</h4>
       <button onClick={() => setShowMessage(!showMessage)}>
         {showMessage ? 'Hide' : 'Show'} Message
       </button>
