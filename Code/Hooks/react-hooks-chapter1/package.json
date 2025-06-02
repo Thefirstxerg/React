@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "react": "^19.0.0-beta-1beb73de0f-20240503",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.0.0-beta-1beb73de0f-20240503"
   },
   "devDependencies": {
