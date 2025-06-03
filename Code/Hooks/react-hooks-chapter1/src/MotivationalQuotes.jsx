@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import reactbootstrap from "react-bootstrap";
-
 const quotes = [
   "Believe in yourself!",
   "Every day is a second chance.",

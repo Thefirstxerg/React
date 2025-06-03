@@ -1,6 +1,5 @@
 import React from 'react'
 import MotivationalQuotes from './MotivationalQuotes'
-import reactbootstrap from "react-bootstrap";
 
 function App() {
   return (
